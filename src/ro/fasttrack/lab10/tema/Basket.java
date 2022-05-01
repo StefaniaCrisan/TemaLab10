@@ -10,16 +10,9 @@ public class Basket {
         this.fruct = fruct;
     }
 
-//    public static void main(String[] args) {
-//        List fruitBasket = new ArrayList<String>();
-//        fruitBasket.add("mere");
-//        fruitBasket.add("pere");
-//        fruitBasket.add("capsuni");
-//        fruitBasket.add("cirese");
-//        fruitBasket.add("struguri");
-//
-////        find("mere");
-//    }
+    public String getFruct() {
+        return fruct;
+    }
 
     public boolean find(String fruct) {
         if (this.fruct == fruct) {
@@ -37,9 +30,4 @@ public class Basket {
             return false;
         }
     }
-
-//    public int position(String fruct){
-//
-//    }
-
 }
